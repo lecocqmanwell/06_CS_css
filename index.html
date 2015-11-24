@@ -1,0 +1,340 @@
+<!doctype html>
+<html class="no-js" lang="fr">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cheat Sheet CSS 3</title>
+  <link rel="stylesheet" href="css/foundation.css" />
+  <link rel="stylesheet" href="style.css" media="screen">
+  <script src="js/vendor/modernizr.js"></script>
+</head>
+
+<body>
+  <div id="top-bar" class="fixed">
+    <nav class="top-bar" data-topbar role="navigation">
+
+      <ul class="title-area">
+        <li class="name">
+          <h1><a href="#">Cheat Sheet CSS3</a></h1>
+        </li>
+        <li class="toggle-topbar menu-icon">
+          <a href="#">
+            <span>appuie ici :-)</span>
+          </a>
+        </li>
+      </ul>
+
+
+      <section class="top-bar-section">
+        <!-- Right Nav Section -->
+        <ul class="right">
+          <li class="bouton"><a href="#syntax">Syntax</a></li>
+          <li class="bouton"><a href="#general">general</a></li>
+          <li class="bouton"><a href="#font">font</a></li>
+          <li class="bouton"><a href="#text">text</a></li>
+          <li class="bouton"><a href="#border">border</a></li>
+          <li class="bouton"><a href="#position">Position</a></li>
+          <li class="bouton"><a href="#background">background</a></li>
+          <li class="bouton"><a href="#list">List</a></li>
+        </ul>
+      </section>
+    </nav>
+
+
+  </div>
+  <!-- fin de la navbar ---------------------------------------------------------
+--------------------------------------------------------------------------------
+----------------------------header----------------------------------------------
+-!-->
+
+  <div class="row">
+    <div class="large-12 columns">
+      <h1>Cheat Sheets Css 3</h1>
+    </div>
+  </div>
+  <header>
+
+    <div class="row">
+      <div class="large-12 columns">
+
+        <h3>We&rsquo;re gonna make Foundation an easy way! </h3>
+        <p>we divid our work in few differents parts</p>
+        <p>Just have a look!!</p>
+      </div>
+    </div>
+
+  </header>
+  <!--  ---------------------------------------------------------------------
+---------------------------fin du header ---------------------------       !-->
+
+
+
+  <div class="row">
+    <div id="syntax" class="large-6 medium-6 columns">
+      <div class="callout panel">
+        <h3>Syntax</h3>
+        <p>
+          Syntax
+          <br/>
+          <code>selector {property: value;}</code>
+          <h6>External Style Sheet</h6>
+          <code>
+            &ltlink rel-"stylesheet" type="text/css" href="style.css" /&gt </code>
+          <h6>Internal Style</h6>
+          <code>
+            &ltstyle type="text/css"&gt selector { property: value; } &lt/style&gt
+          </code>
+          <h6>Inline Style</h6>
+          <code>
+            &lttag style="property: value"&gt
+          </code>
+        </p>
+      </div>
+    </div>
+    <div id="general" class="large-6 medium-6 columns">
+      <div class="callout panel">
+        <h3>Général</h3>
+        <code>Class</code>
+        <dt>String preceded by a period</dt>
+        <code>ID</code>
+        <dt>String preceded by a hash mark</dt>
+        <code>div</code>
+        <dt>Formats structure or block of text</dt>
+        <code>
+          span
+        </code>
+        <dt></dt>Inline formatting
+        <code>color </code>
+        <dt>Foreground color</dt>
+        <code>cursor </code>
+        <dt>Appearance of the cursor</dt>
+        <code>display</code>
+        <dt>block; inline; list-item; none</dt>
+        <code>overflow</code>
+        <dt>How content overflowing its box is handled visible, hidden, scroll, auto</dt>
+        <code>visibility </code>
+        <dt>visible, hidden</dt>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div id="font" class="large-6 medium-6 columns">
+      <div class="callout panel">
+        <h3>Font</h3>
+        <code>
+          font-style
+        </code>
+        <dt>
+          Italic, normal
+        </dt>
+        <code>
+          font-variant
+        </code>
+        <dt>
+          normal, small-caps
+        </dt>
+        <code>
+          font-weight
+        </code>
+        <dt>
+          bold, normal, lighter, bolder, integer (100-900)
+        </dt>
+        <code>
+          font-size
+        </code>
+        <dt>
+          Size of the font
+        </dt>
+        <code>
+          font-family
+        </code>
+        <dt>
+          Specific font(s) to be used
+        </dt>
+      </div>
+    </div>
+
+    <div id="border" class="large-6 medium-6 columns">
+      <div class="callout panel">
+        <h3>border</h3>
+        <code>border-width</code>
+        <dt>Width of the border</dt>
+        <code>
+          border-style
+        </code>
+        <dt>
+          dashed; dotted; double; groove; inset; outset; ridge; solid; none
+        </dt>
+        <code>
+          border-color
+        </code>
+        <dt>
+          Color of the border
+        </dt>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div id="text" class="large-6 medium-6 columns">
+      <div class="callout panel">
+        <h3>Text</h3>
+        <code>
+          letter-spacing
+        </code>
+        <dt>
+          Space between letters
+        </dt>
+        <code>
+          line-height
+        </code>
+        <dt>
+          Vertical distance between baselines
+        </dt>
+        <code>
+          text-align
+        </code>
+        <dt>
+          Horizontal alignment
+        </dt>
+        <code>
+          text-decoration
+        </code>
+        <dt>
+          blink, line-through, none, overline, underline
+        </dt>
+        <code>
+          text-indent
+        </code>
+        <dt>
+          First line indentation
+        </dt>
+        <code>
+          text-transform
+        </code>
+        <dt>
+          capitalize, lowercase, uppercase
+        </dt>
+        <code>
+          vertical-align
+        </code>
+        <dt>
+          Vertical alignment
+        </dt>
+        <code>
+          word-spacing
+        </code>
+        <dt>
+          Spacing between words
+        </dt>
+      </div>
+    </div>
+    <div id="position" class="large-6 medium-6 columns">
+      <div class="callout panel">
+        <h3>Position</h3>
+        <code>
+          clear
+        </code>
+        <dt>
+          Any floating elements around the element? both, left, right, none
+        </dt>
+        <code>
+          float
+        </code>
+        <dt>
+          Floats to a specified side left, right, none
+        </dt>
+        <code>
+          left
+        </code>
+        <dt>
+          The left position of an element auto, length values (pt, in, cm, px)
+        </dt>
+        <code>
+          top
+        </code>
+        <dt>
+          The top position of an element auto, length values (pt, in, cm, px)
+        </dt>
+        <code>
+          position
+        </code>
+        <dt>
+          static, relative, absolute
+        </dt>
+        <code>
+          z-index
+        </code>
+        <dt>
+          Element above or below overlapping elements? auto, integer (higher numbers on top)
+        </dt>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div id="background" class="large-6 medium-6 columns">
+      <div class="callout panel">
+        <h3>Background</h3>
+        <code>
+          background-color
+        </code>
+        <dt> Background color</dt>
+        <code>background-image </code>
+        <dt>Background image</dt>
+        <code>
+          background-repeat
+        </code>
+        <dt>
+          repeat, no-repeat, repeat-x, repeat-y
+        </dt>
+        <code>
+          background-attachment
+        </code>
+        <dt>
+          Background image scroll with the element? scroll, fixed
+        </dt>
+        <code>
+          background-position
+        </code>
+        <dt>
+          (x y), top, center, bottom, left, right
+        </dt>
+      </div>
+    </div>
+    <div id="list" class="large-6 medium-6 columns">
+      <div class="callout panel">
+        <h3>List</h3>
+        <code>
+          list-style-type
+        </code>
+        <dt>
+          Type of bullet or numbering in the list disc; circle; square; decimal; lower-roman; upper-roman; lower-alpha; upper-alpha; none
+        </dt>
+        <code>
+          list-style-position
+        </code>
+        <dt>
+          Position of the bullet or number in a list inside; outside
+        </dt>
+        <code>
+          list-style-image
+        </code>
+        <dt>
+          Image to be used as the bullet in a list
+        </dt>
+      </div>
+    </div>
+  </div>
+  <hr />
+  <footer>
+  </footer>
+
+  <script src="js/vendor/jquery.js"></script>
+  <script src="js/foundation.min.js"></script>
+  <script>
+    $(document).foundation();
+  </script>
+
+</body>
+
+</html>
